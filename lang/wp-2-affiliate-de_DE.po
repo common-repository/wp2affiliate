@@ -1,0 +1,896 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp2affiliate v0.01.30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-08-08 17:29:52+0000\n"
+"Last-Translator: WP2A <info@wp2affiliate.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: wp2affiliate.php:897
+#@ wp-2-affiliate
+msgid "Error: Invalid link! Please check the URL to make sure it is correct."
+msgstr "Fehler: Ungültiger Link! Bitte überprüfe die URL um sicherzustellen, dass sie korrekt ist."
+
+#: wp2affiliate.php:965
+#, php-format
+#@ wp-2-affiliate
+msgid "Configuration error : unrecognized or unsupported redirect type \"%s\""
+msgstr "Konfigurationsfehler: Nicht erkannte oder nicht unterstützte Umleitung \"%s\""
+
+#: wp2affiliate.php:1086
+#@ wp-2-affiliate
+msgid "wp2affiliate Cloaked Links"
+msgstr ""
+
+#: wp2affiliate.php:1087
+#: wp2affiliate.php:1813
+#: wp2affiliate.php:1819
+#: wp2affiliate.php:1820
+#: wp2affiliate.php:1826
+#: wp2affiliate.php:1827
+#: wp2affiliate.php:1833
+#: wp2affiliate.php:1834
+#@ wp-2-affiliate
+msgid "Cloaked Links"
+msgstr ""
+
+#: wp2affiliate.php:1106
+#@ wp-2-affiliate
+msgid "wp2affiliate Programs"
+msgstr "wp2affiliate Programme"
+
+#: wp2affiliate.php:1107
+#@ wp-2-affiliate
+msgid "Affiliate Programs"
+msgstr "Affiliate Programme"
+
+#: wp2affiliate.php:1189
+#@ wp-2-affiliate
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: wp2affiliate.php:1194
+#@ wp-2-affiliate
+msgid "WP2Affiliate Settings"
+msgstr "WP2Affiliate Einstellungen"
+
+#: wp2affiliate.php:1206
+#: wp2affiliate.php:1211
+#@ wp-2-affiliate
+msgid "Link Cloaking"
+msgstr ""
+
+#: wp2affiliate.php:1207
+#@ wp-2-affiliate
+msgid "Affiliate IDs"
+msgstr ""
+
+#: wp2affiliate.php:1216
+#@ wp-2-affiliate
+msgid "General Link Cloaking Settings"
+msgstr "Allgemeine Cloaking Einstellungen"
+
+#: wp2affiliate.php:1223
+#@ wp-2-affiliate
+msgid "Here you need to specify where and how you want to cloak your links. The default settings are good, you can keep it. <br/>Please note: <strong>Only cloaked links can be converted into affiliate links!</strong> Cloaking is done while outputting, your data in the DB remains unchanged."
+msgstr "Hier kannst du einstellen, wie und wo du deine Links umwandeln (cloaken) willst. Die Standartwerte sind in Ordnung, du kannst alles so lassen.<br/> Hinweis: <strong>Nur gecloakte Links können in Affiliate-LInks verwandelt werden! </strong> Das Cloaking erfolgt bei der Ausgabe. Deine Daten in der DB bleiben immer unverändert."
+
+#: wp2affiliate.php:1229
+#@ wp-2-affiliate
+msgid "Where to cloak?"
+msgstr "Wo willst du cloaken?"
+
+#: wp2affiliate.php:1234
+#@ wp-2-affiliate
+msgid "<strong>Everywhere</strong>, in any part of the site (posts, pages, sidebar, comments...)"
+msgstr "<strong>Überall</strong>, in jedem Teil der Seite (posts, pages, sidebar, comments...)"
+
+#: wp2affiliate.php:1238
+#@ wp-2-affiliate
+msgid "<strong>Only in post/page content</strong> (including custom post types)"
+msgstr "<strong>Nur im Inhalt von Beiträgen und Seiten</strong> (inklusive custom post types)"
+
+#: wp2affiliate.php:1242
+#@ wp-2-affiliate
+msgid "Also in RSS-feeds"
+msgstr "Auch in RSS-feeds"
+
+#: wp2affiliate.php:1249
+#@ wp-2-affiliate
+msgid "What to cloak?"
+msgstr "Was willst du cloaken?"
+
+#: wp2affiliate.php:1254
+#@ wp-2-affiliate
+msgid "All Links"
+msgstr "Alle Links"
+
+#: wp2affiliate.php:1255
+#@ wp-2-affiliate
+msgid "All links will be cloaked, except links that are tagged with <code>&lt;!--nowp2a--&gt;</code> (example: <code>&lt;a href=\"http://www.example.com/\"&gt;&lt;!--nowp2a--&gt;click here&lt;/a&gt;</code>) or match to the blacklist. Cloaking can still be disabled individually for each post/page."
+msgstr "Alle Links werden gecloaked, ausgenommen Links die mit <code>&lt;!--nowp2a--&gt;</code> markiert sind (z. B. <code>&lt;a href=\"http://www.beispiel.de/\"&gt;&lt;!--nowp2a--&gt;hier klicken&lt;/a&gt;</code>) und Links die in der Blacklist stehen. Das Cloaking kann trotzdem individuell für einzelne Beiträge oder Seiten deaktiviert werden."
+
+#: wp2affiliate.php:1258
+#@ wp-2-affiliate
+msgid "affiliate programs"
+msgstr "Affiliate Programme"
+
+#: wp2affiliate.php:1262
+#@ wp-2-affiliate
+msgid "Only Managed Affiliate Links"
+msgstr "Nur Affiliate Links, die durch WP2A verwaltet werden"
+
+#: wp2affiliate.php:1263
+#, php-format
+#@ wp-2-affiliate
+msgid "Only links that match to the list of %s will be cloaked. Best compatibility with any other link-plugins."
+msgstr "Nur Links aus der Liste der %s werden gecloaked. Beste Kompatibilität mit anderen Link-Plugins (falls vorhanden)."
+
+#: wp2affiliate.php:1268
+#@ wp-2-affiliate
+msgid "Selective Cloaking"
+msgstr "Selektives Cloaking"
+
+#: wp2affiliate.php:1269
+#@ wp-2-affiliate
+msgid "Only links tagged with <code>&lt;!--wp2a--&gt;</code> (example: <code>&lt;a href=\"http://www.example.com/\"&gt;&lt;!--wp2a--&gt;click here&lt;/a&gt;</code>) and links that match the whitelist will be cloaked."
+msgstr "Nur Links die mit <code>&lt;!--wp2a--&gt;</code> markiert sind (z. B. <code>&lt;a href=\"http://www.beispiel.de/\"&gt;&lt;!--wp2a--&gt;hier klicken&lt;/a&gt;</code>) und Links die in der Whitelist stehen werden gecloaked."
+
+#: wp2affiliate.php:1278
+#@ wp-2-affiliate
+msgid "Blacklist"
+msgstr ""
+
+#: wp2affiliate.php:1287
+#@ wp-2-affiliate
+msgid "Blacklist: One domain or URL per row. Links that match to any of these values <strong>will not</strong> be cloaked when cloaking is set to \"All Links\". At least your own domain should be here, because internal links should not be cloaked!"
+msgstr "Blacklist: Eine Domain oder URL je Zeile. Links die zu einem dieser Werte passen werden <strong>nicht</strong> gecloaked, wenn das Cloaking auf \"Alle Links\" eingestellt ist. Mindestens deine eigene Domain sollte in der Liste stehen, interne Links sollten nicht gecloaked werden!"
+
+#: wp2affiliate.php:1295
+#@ wp-2-affiliate
+msgid "Whitelist"
+msgstr ""
+
+#: wp2affiliate.php:1304
+#@ wp-2-affiliate
+msgid "Whitelist: One domain or URL per row. Links that match to any of these values will be cloaked when cloaking is set to \"Selective Cloaking\"."
+msgstr "Whitelist: Eine Domain oder URL je Zeile. Links die zu einem dieser Werte passen werden gecloaked wenn das Cloaking auf \"Selectives Cloaking\" eingestellt ist."
+
+#: wp2affiliate.php:1310
+#: wp2affiliate.php:1410
+#: wp2affiliate.php:1527
+#@ wp-2-affiliate
+msgid "Save All Changes"
+msgstr "Alle Änderungen Speichern"
+
+#: wp2affiliate.php:1316
+#@ wp-2-affiliate
+msgid "Advanced Cloaking settings"
+msgstr "Erweiterte Cloaking Einstellungen"
+
+#: wp2affiliate.php:1324
+#@ wp-2-affiliate
+msgid "Link prefix"
+msgstr "Link-Präfix"
+
+#: wp2affiliate.php:1327
+#, php-format
+#@ wp-2-affiliate
+msgid "Cloaked links will look like this: <code>%s</code>"
+msgstr "So werden die Links aussehen: <code>%s</code>"
+
+#: wp2affiliate.php:1333
+#@ wp-2-affiliate
+msgid "Additional Tweaks"
+msgstr "Erweiterte Tweaks"
+
+#: wp2affiliate.php:1339
+#@ wp-2-affiliate
+msgid "Add <code>target=\"_blank\"</code> for every cloaked link (open in new window)"
+msgstr "<code>target=\"_blank\"</code> bei jedem Link hinzufügen (in neuem Fenster/Tab öffnen)"
+
+#: wp2affiliate.php:1346
+#@ wp-2-affiliate
+msgid "Add <code>rel=\"nofollow\"</code> for every cloaked link (stop giving link juice)"
+msgstr "<code>rel=\"nofollow\"</code> bei jedem Link hinzufügen (verhindert die Weitergabe von Link-Juice)"
+
+#: wp2affiliate.php:1353
+#@ wp-2-affiliate
+msgid "Track clicks as event with Google Analytics"
+msgstr "Klicks mit Google Analytics als Event aufzeichnen"
+
+#: wp2affiliate.php:1360
+#@ wp-2-affiliate
+msgid "You need to have already set up the GA code on your site (analytics.js). The event-category will be \"Cloaked Links WP2A\", the action will be the uncloaked original URL. <br/> Please note: The GA-tracking will only work properly with the target=\"_blank\" attribute (see option above)."
+msgstr "Du musst den GA-Code (analytics.js) bereits auf deiner Seite eingerichtet haben. Die Event-Category lautet \"Cloaked Links WP2A\", als Action wird die original URL gespeichert. <br/> Hinweis: Das GA-Tracking funktioniert nur richtig mit dem target=\"_blank\" Attribut (siehe obige Option)."
+
+#: wp2affiliate.php:1367
+#@ wp-2-affiliate
+msgid "Add custom css-class for every cloaked link"
+msgstr "Benutzerdefinierte css-class bei jedem Link hinzufügen"
+
+#: wp2affiliate.php:1373
+#@ wp-2-affiliate
+msgid "Custom css-class:"
+msgstr "css-class:"
+
+#: wp2affiliate.php:1383
+#@ wp-2-affiliate
+msgid "Redirect type"
+msgstr "Weiterleitungs-Typ"
+
+#: wp2affiliate.php:1389
+#@ wp-2-affiliate
+msgid "301 Permanent Redirect"
+msgstr ""
+
+#: wp2affiliate.php:1390
+#@ wp-2-affiliate
+msgid "302 Found (recommended)"
+msgstr "302 Found (empfohlen)"
+
+#: wp2affiliate.php:1391
+#@ wp-2-affiliate
+msgid "307 Temporary Redirect"
+msgstr ""
+
+#: wp2affiliate.php:1392
+#@ wp-2-affiliate
+msgid "Double META refresh (will hide the referer in most cases)"
+msgstr "Double META refresh (versteckt den Referer in den meisten Fällen)"
+
+#: wp2affiliate.php:1422
+#@ wp-2-affiliate
+msgid "Affiliat IDs"
+msgstr ""
+
+#: wp2affiliate.php:1427
+#@ wp-2-affiliate
+msgid "Affiliate Settings and IDs"
+msgstr "Affiliate Einstellungen und IDs"
+
+#: wp2affiliate.php:1432
+#, php-format
+#@ wp-2-affiliate
+msgid "Here you have to store your affiliate IDs. <strong>Attention:</strong> You need to activate the partnerships at %s for the various affiliate programs! <br/>For Zanox the code is different for each affiliate program. The other networks can be centrally maintained here."
+msgstr "Hier musst du deine Affiliate IDs speichern. <strong>Achtung:</strong> Du musst die Partnerschaften für die einzelnen Programme noch unter %s aktivieren! <br/>Bei Zanox ist der Code für jedes einzelne Affiliate-Programm unterschiedlich. Die anderen Netzwerke kannst du hier zentral verwalten."
+
+#: wp2affiliate.php:1438
+#@ wp-2-affiliate
+msgid "Affili.net"
+msgstr ""
+
+#: wp2affiliate.php:1442
+#@ wp-2-affiliate
+msgid "Your Affili.net Publisher-ID"
+msgstr "Deine Affili.net Publisher-ID"
+
+#: wp2affiliate.php:1443
+#: wp2affiliate.php:1455
+#: wp2affiliate.php:1467
+#: wp2affiliate.php:1481
+#: wp2affiliate.php:1493
+#: wp2affiliate.php:1505
+#: wp2affiliate.php:1518
+#@ wp-2-affiliate
+msgid "Example:"
+msgstr "Beispiel:"
+
+#: wp2affiliate.php:1444
+#: wp2affiliate.php:1456
+#: wp2affiliate.php:1468
+#: wp2affiliate.php:1482
+#: wp2affiliate.php:1494
+#: wp2affiliate.php:1506
+#: wp2affiliate.php:1519
+#@ wp-2-affiliate
+msgid "Source:"
+msgstr "Quelle:"
+
+#: wp2affiliate.php:1450
+#@ wp-2-affiliate
+msgid "Zanox"
+msgstr ""
+
+#: wp2affiliate.php:1454
+#@ wp-2-affiliate
+msgid "For Zanox you need to store the deeplink code individually for each program!"
+msgstr "Bei Zanox musst du den Deeplink-Code für jedes Programm einzeln in der Übersicht hinterlegen!"
+
+#: wp2affiliate.php:1476
+#@ wp-2-affiliate
+msgid "Tradedoubler"
+msgstr ""
+
+#: wp2affiliate.php:1480
+#@ wp-2-affiliate
+msgid "Your Tradedoubler Website-ID"
+msgstr "Deine Tradedoubler Website-ID"
+
+#: wp2affiliate.php:1488
+#@ wp-2-affiliate
+msgid "Amazon"
+msgstr ""
+
+#: wp2affiliate.php:1492
+#@ wp-2-affiliate
+msgid "Your Amazon Tracking ID"
+msgstr "Deine Amazon Tracking ID"
+
+#: wp2affiliate.php:1550
+#@ wp-2-affiliate
+msgid "Plugin Homepage (german)"
+msgstr "Plugin Homepage"
+
+#: wp2affiliate.php:1551
+#@ wp-2-affiliate
+msgid "Click Sharing (german)"
+msgstr "Klick-Beteiligung"
+
+#: wp2affiliate.php:1588
+#: wp2affiliate.php:2280
+#@ wp-2-affiliate
+msgid "(None)"
+msgstr "(keiner)"
+
+#: wp2affiliate.php:1593
+#: wp2affiliate.php:2285
+#@ wp-2-affiliate
+msgid "Edit this link"
+msgstr "Link bearbeiten"
+
+#: wp2affiliate.php:1593
+#@ wp-2-affiliate
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: wp2affiliate.php:1606
+#, php-format
+#@ wp-2-affiliate
+msgid ""
+"You are about to delete the cloaked link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Du bist dabei den Link '%s' zu löschen\n"
+"  Klicke auf 'Abbrechen' um den Link zu behalten oder 'OK' zum Löschen."
+
+#: wp2affiliate.php:1608
+#@ wp-2-affiliate
+msgid ""
+"You are about to delete this cloaked link\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Du bist dabei diesen Link zu löschen.\n"
+"  Klicke 'Abbrechen' um den Link zu behalten oder 'OK' zum Löschen."
+
+#: wp2affiliate.php:1611
+#@ wp-2-affiliate
+msgid "Delete this cloaked link"
+msgstr "Link löschen"
+
+#: wp2affiliate.php:1611
+#: wp2affiliate.php:2120
+#: wp2affiliate.php:2196
+#: wp2affiliate.php:2695
+#@ wp-2-affiliate
+msgid "Delete"
+msgstr "Löschen"
+
+#: wp2affiliate.php:1655
+#@ wp-2-affiliate
+msgid "static affiliate link (not managed by wp2a)"
+msgstr "statischer Affiliate Link (nicht durch WP2A verwaltet)"
+
+#: wp2affiliate.php:1658
+#, php-format
+#@ wp-2-affiliate
+msgid "active partnership (%s, %s, %s)"
+msgstr "aktive Partnerschaft (%s, %s, %s)"
+
+#: wp2affiliate.php:1663
+#@ wp-2-affiliate
+msgid "known program, but no active partnership"
+msgstr "bekanntes Programm, aber keine aktive Partnerschaft"
+
+#: wp2affiliate.php:1667
+#@ wp-2-affiliate
+msgid "unknown link"
+msgstr "unbekannter Link"
+
+#: wp2affiliate.php:1698
+#: wp2affiliate.php:2348
+#@ wp-2-affiliate
+msgid "Link deleted."
+msgstr "Ling gelöscht."
+
+#: wp2affiliate.php:1699
+#: wp2affiliate.php:2349
+#@ wp-2-affiliate
+msgid "An unexpected database error occured while trying to delete the link."
+msgstr "Ein unbekannter Datenbank-Fehler ist beim Löschen dieses Links aufgetreten."
+
+#: wp2affiliate.php:1709
+#, php-format
+#@ wp-2-affiliate
+msgid "%d link deleted."
+msgid_plural "%d links deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp2affiliate.php:1752
+#@ wp-2-affiliate
+msgid "You must enter a name for the new link"
+msgstr "Du musst einen Namen für den neuen Link eingeben."
+
+#: wp2affiliate.php:1761
+#@ wp-2-affiliate
+msgid "Link added"
+msgstr "Link hinzugefügt"
+
+#: wp2affiliate.php:1765
+#, php-format
+#@ wp-2-affiliate
+msgid "An unexpected error occured while adding the link to the database : %s"
+msgstr "Beim Hinzufügen des Links ist ein unbekannter Fehler aufgetreten : %s"
+
+#: wp2affiliate.php:1812
+#: wp2affiliate.php:2381
+#@ wp-2-affiliate
+msgid "All"
+msgstr "Alle"
+
+#: wp2affiliate.php:1814
+#@ wp-2-affiliate
+msgid "No links found"
+msgstr "Keine Links gefunden"
+
+#: wp2affiliate.php:1818
+#@ wp-2-affiliate
+msgid "Named"
+msgstr "mit Namen"
+
+#: wp2affiliate.php:1825
+#@ wp-2-affiliate
+msgid "Unnamed"
+msgstr "ohne Namen"
+
+#: wp2affiliate.php:1832
+#@ wp-2-affiliate
+msgid "Affiliate Links"
+msgstr "Affiliate Links"
+
+#: wp2affiliate.php:1865
+#@ wp-2-affiliate
+msgid "Name / Slug"
+msgstr "Name / Slug"
+
+#: wp2affiliate.php:2429
+#: wp2affiliate.php:2436
+#: wp2affiliate.php:2443
+#: wp2affiliate.php:2450
+#: wp2affiliate.php:2457
+#: wp2affiliate.php:2464
+#@ wp-2-affiliate
+msgid "Click to sort by this column"
+msgstr "nach dieser Spalte sortieren"
+
+#: wp2affiliate.php:1872
+#@ wp-2-affiliate
+msgid "Destination URL"
+msgstr "Ziel URL"
+
+#: wp2affiliate.php:1879
+#@ wp-2-affiliate
+msgid "Cloaked URL"
+msgstr ""
+
+#: wp2affiliate.php:1886
+#@ wp-2-affiliate
+msgid "Affiliate Status"
+msgstr ""
+
+#: wp2affiliate.php:1893
+#@ wp-2-affiliate
+msgid "Hits"
+msgstr "Klicks"
+
+#: wp2affiliate.php:1987
+#: wp2affiliate.php:2553
+#, php-format
+#@ wp-2-affiliate
+msgid "Unable to list cloaked links. Database error : %s"
+msgstr "Die Links konnten nicht ausgegeben werden. Datenbank Fehler: %s"
+
+#: wp2affiliate.php:1994
+#: wp2affiliate.php:2560
+#@ wp-2-affiliate
+msgid "(optional)"
+msgstr ""
+
+#: wp2affiliate.php:1995
+#: wp2affiliate.php:2561
+#@ wp-2-affiliate
+msgid ""
+"You are about to delete the selected links.\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Die bist dabei, die ausgewählten Links zu löschen.\n"
+"Klicke 'Abbrechen' um die Links zu behalten oder 'OK' zum Löschen."
+
+#: wp2affiliate.php:2006
+#@ wp-2-affiliate
+msgid "Add New Link"
+msgstr "Neuen Link hinzufügen"
+
+#: wp2affiliate.php:2009
+#: wp2affiliate.php:2575
+#, php-format
+#@ wp-2-affiliate
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Suchergebnis für &#8220;%s&#8221;"
+
+#: wp2affiliate.php:2041
+#@ wp-2-affiliate
+msgid "Add Cloaked Link"
+msgstr "Link hinzufügen"
+
+#: wp2affiliate.php:2044
+#: wp2affiliate.php:2231
+#: wp2affiliate.php:2735
+#@ wp-2-affiliate
+msgid "URL"
+msgstr ""
+
+#: wp2affiliate.php:2051
+#: wp2affiliate.php:2236
+#: wp2affiliate.php:2730
+#@ wp-2-affiliate
+msgid "Name"
+msgstr ""
+
+#: wp2affiliate.php:2060
+#: wp2affiliate.php:2243
+#: wp2affiliate.php:2244
+#: wp2affiliate.php:2776
+#: wp2affiliate.php:2777
+#@ wp-2-affiliate
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: wp2affiliate.php:2061
+#@ wp-2-affiliate
+msgid "Save"
+msgstr "Speichern"
+
+#: wp2affiliate.php:2061
+#@ wp-2-affiliate
+msgid "Add Link"
+msgstr "Link hinzufügen"
+
+#: wp2affiliate.php:2101
+#@ wp-2-affiliate
+msgid "Search Links:"
+msgstr "Links durchsuchen"
+
+#: wp2affiliate.php:2105
+#@ wp-2-affiliate
+msgid "Search Links"
+msgstr "Links durchsuchen"
+
+#: wp2affiliate.php:2119
+#: wp2affiliate.php:2195
+#: wp2affiliate.php:2694
+#@ default
+msgid "Bulk Actions"
+msgstr ""
+
+#: wp2affiliate.php:2122
+#: wp2affiliate.php:2198
+#: wp2affiliate.php:2697
+#: wp2affiliate.php:2819
+#@ default
+msgid "Apply"
+msgstr ""
+
+#: wp2affiliate.php:2129
+#: wp2affiliate.php:2638
+#@ wp-2-affiliate
+msgid "&laquo;"
+msgstr ""
+
+#: wp2affiliate.php:2130
+#: wp2affiliate.php:2639
+#@ wp-2-affiliate
+msgid "&raquo;"
+msgstr ""
+
+#: wp2affiliate.php:2137
+#: wp2affiliate.php:2205
+#: wp2affiliate.php:2646
+#: wp2affiliate.php:2704
+#, php-format
+#@ wp-2-affiliate
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Zeige %s&#8211;%s von %s Links"
+
+#: wp2affiliate.php:2228
+#@ wp-2-affiliate
+msgid "Edit Link"
+msgstr "Link bearbeiten"
+
+#: wp2affiliate.php:2246
+#@ wp-2-affiliate
+msgid "Update"
+msgstr ""
+
+#: wp2affiliate.php:2247
+#@ wp-2-affiliate
+msgid "Update Link"
+msgstr ""
+
+#: wp2affiliate.php:2285
+#: wp2affiliate.php:2727
+#@ wp-2-affiliate
+msgid "Edit Partnership"
+msgstr "Partnerschaft bearbeiten"
+
+#: wp2affiliate.php:2382
+#@ wp-2-affiliate
+msgid "Affiliate Programs / Partnerships"
+msgstr "Affiliate Programme / Partnerschaften"
+
+#: wp2affiliate.php:2383
+#@ wp-2-affiliate
+msgid "No Affiliate Partnerships found"
+msgstr "Keine Affiliate Partnerschaften gefunden"
+
+#: wp2affiliate.php:2387
+#@ wp-2-affiliate
+msgid "Active"
+msgstr "Aktiv"
+
+#: wp2affiliate.php:2388
+#@ wp-2-affiliate
+msgid "Affiliate Partnerships (active)"
+msgstr "Affiliate Partnerschaften (aktiv)"
+
+#: wp2affiliate.php:2389
+#@ wp-2-affiliate
+msgid "No active Affiliate Partnerships found"
+msgstr "Keine aktiven Affiliate Partnerschaften gefunden"
+
+#: wp2affiliate.php:2394
+#@ wp-2-affiliate
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: wp2affiliate.php:2395
+#@ wp-2-affiliate
+msgid "Affiliate Partnerships (inactive)"
+msgstr "Affiliate Partnerschaften (inaktiv)"
+
+#: wp2affiliate.php:2396
+#@ wp-2-affiliate
+msgid "No inactive Affiliate Partnerships found"
+msgstr "Keine inaktiven Affiliate Partnerschaften gefunden"
+
+#: wp2affiliate.php:2428
+#@ wp-2-affiliate
+msgid "Affiliate Program"
+msgstr "Affiliate Programme"
+
+#: wp2affiliate.php:2435
+#@ wp-2-affiliate
+msgid "Main URL"
+msgstr "Haupt URL"
+
+#: wp2affiliate.php:2442
+#@ wp-2-affiliate
+msgid "Category"
+msgstr "Kategorie"
+
+#: wp2affiliate.php:2311
+#: wp2affiliate.php:2449
+#@ wp-2-affiliate
+msgid "Network Link"
+msgstr "Netzwerk Link"
+
+#: wp2affiliate.php:2456
+#@ wp-2-affiliate
+msgid "Active Network"
+msgstr "Aktives Netzwerk"
+
+#: wp2affiliate.php:2463
+#: wp2affiliate.php:2753
+#@ wp-2-affiliate
+msgid "Affiliate-Code"
+msgstr ""
+
+#: wp2affiliate.php:2616
+#@ wp-2-affiliate
+msgid "Search Programs:"
+msgstr "Programme durchsuchen:"
+
+#: wp2affiliate.php:2620
+#@ wp-2-affiliate
+msgid "Search Programs"
+msgstr "Programme durchsuchen"
+
+#: wp2affiliate.php:2740
+#@ wp-2-affiliate
+msgid "Network"
+msgstr "Netzwerk"
+
+#: wp2affiliate.php:2779
+#: wp2affiliate.php:2780
+#@ wp-2-affiliate
+msgid "Update Partnership"
+msgstr "Update Partnerschaft"
+
+#: wp2affiliate.php:2816
+#@ default
+msgid "Show on screen"
+msgstr ""
+
+#: wp2affiliate.php:2818
+#@ wp-2-affiliate
+msgid "links"
+msgstr "Links"
+
+#: wp2affiliate.php:2829
+#@ wp-2-affiliate
+msgid "You don't have sufficient permissions to edit links!"
+msgstr "Du hast keine ausreichenden Rechte, um diesen Link zu bearbeiten!"
+
+#: wp2affiliate.php:2839
+#: wp2affiliate.php:2909
+#@ wp-2-affiliate
+msgid "Link ID not specified or invalid."
+msgstr "Link ID nicht angegeben oder ungültig."
+
+#: wp2affiliate.php:2883
+#: wp2affiliate.php:2888
+#: wp2affiliate.php:2956
+#: wp2affiliate.php:2961
+#, php-format
+#@ wp-2-affiliate
+msgid "Database error : %s"
+msgstr "Datenbank Fehler: %s"
+
+#: wp2affiliate.php:2899
+#@ wp-2-affiliate
+msgid "You don't have sufficient permissions to edit partnerships!"
+msgstr "Du hast keine ausrecheinden Rechte, um diese Partnerschaft zu bearbeiten!"
+
+#: wp2affiliate.php:2926
+#@ wp-2-affiliate
+msgid "Error! For zanox you have to enter a individual affiliate code!"
+msgstr "Fehler! Für Zanox musst du einen individuellen Affiliate Code angeben!"
+
+#: wp2affiliate.php:2980
+#@ wp-2-affiliate
+msgid "Please enter an URL"
+msgstr "Bitte gib eine URL ein"
+
+#: wp2affiliate.php:2985
+#@ wp-2-affiliate
+msgid "Please provide a valid URL, e.g \"http://beispiel.de/\" (sans quotes)"
+msgstr "Bitte gib eine gültige URL ein, z. B. \"http://beispiel.de/\" (ohne Anführungszeichen)"
+
+#: wp2affiliate.php:3002
+#@ wp-2-affiliate
+msgid "The name must contain at least one letter or underscore!"
+msgstr "Der Name muss mindestens einen Buchstaben oder Unterstrich enthalten!"
+
+#: wp2affiliate.php:3007
+#@ wp-2-affiliate
+msgid "The name can only contain letters, digits, dots, dashes and underscores."
+msgstr "Der Name darf nur Buchstaben, Zahlen, Punkte, Striche oder Unterstriche enthalten."
+
+#: wp2affiliate.php:3013
+#, php-format
+#@ wp-2-affiliate
+msgid "There is already another link with the name '%s'! Please enter a unique name."
+msgstr "Es gibt bereits einen anderen LInk mit dem Namen '%s'! Bitte gib einen einzigartigen Namen ein."
+
+#: wp2affiliate.php:3215
+#: wp2affiliate.php:3225
+#@ wp-2-affiliate
+msgid "WP2Affiliate"
+msgstr ""
+
+#: wp2affiliate.php:2316
+#: wp2affiliate.php:2325
+#@ wp-2-affiliate
+msgid "(inactive)"
+msgstr "(inaktiv)"
+
+#: wp2affiliate.php:1866
+#@ wp-2-affiliate
+msgid "Click to sort by Name"
+msgstr ""
+
+#: wp2affiliate.php:1873
+#@ wp-2-affiliate
+msgid "Click to sort by Destination URL"
+msgstr ""
+
+#: wp2affiliate.php:1880
+#@ wp-2-affiliate
+msgid "Click to sort by Cloaked URL"
+msgstr ""
+
+#: wp2affiliate.php:1887
+#@ wp-2-affiliate
+msgid "Click to sort by Affiliate Status"
+msgstr ""
+
+#: wp2affiliate.php:1894
+#@ wp-2-affiliate
+msgid "Click to sort by Hits"
+msgstr ""
+
+#: wp2affiliate.php:3252
+#@ wp-2-affiliate
+msgid "Disable link cloaking for this post/page"
+msgstr "Link Cloaking / Maskierung für diesen Beitrag / diese Seite deaktivieren."
+
+#: wp2affiliate.php:1500
+#@ wp-2-affiliate
+msgid "Digistore24"
+msgstr ""
+
+#: wp2affiliate.php:1504
+#@ wp-2-affiliate
+msgid "Your Digistore24-ID"
+msgstr "Deine Digistore24-ID"
+
+#: wp2affiliate.php:1506
+#@ wp-2-affiliate
+msgid "or"
+msgstr "oder"
+
+#: wp2affiliate.php:1507
+#@ wp-2-affiliate
+msgid "Only works for product-links like https://www.digistore24.com/product/12345, not for digistore24-homepage or signup!"
+msgstr "Funktioniert nur für Produkt-Links wie https://www.digistore24.com/product/12345, nicht für digistore24-homepage oder signup!"
+
+#: wp2affiliate.php:1513
+#@ wp-2-affiliate
+msgid "eBayPartnerNet"
+msgstr ""
+
+#: wp2affiliate.php:1517
+#@ wp-2-affiliate
+msgid "Your eBay Partner Network Link-Code"
+msgstr "Dein eBay Partner Network Link-Code"
+
+#: wp2affiliate.php:1520
+#@ wp-2-affiliate
+msgid "Must be one time generated <a title=\"eBayPartnerNet Link-Generator\" target=\"_blank\" href=\"https://publisher.ebaypartnernetwork.ebay.com/PublisherToolsLinkGenPage\">here</a> (Custom URL)!"
+msgstr "Muss einmalig <a title=\"eBayPartnerNet Link-Generator\" target=\"_blank\" href=\"https://publisher.ebaypartnernetwork.ebay.com/PublisherToolsLinkGenPage\">hier</a> generiert werden (Individuelle URL)!"
+
+#: wp2affiliate.php:1462
+#@ wp-2-affiliate
+msgid "Awin"
+msgstr ""
+
+#: wp2affiliate.php:1466
+#@ wp-2-affiliate
+msgid "Your AWIN Publisher-ID"
+msgstr "Deine AWIN Affiliate-ID"
+
